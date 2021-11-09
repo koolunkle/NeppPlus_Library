@@ -6,6 +6,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.bumptech.glide.Glide
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.normal.TedPermission
 import kotlinx.android.synthetic.main.activity_main.*
@@ -73,6 +74,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun setValues() {
+
+        Glide.with(this).load("https://i.imgur.com/oupP1zh.jpeg").into(imgAction)
 
     }
 
