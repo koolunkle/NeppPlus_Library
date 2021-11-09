@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LibraryPractice_20211105">
         <activity
+            android:name=".ViewPhotoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
